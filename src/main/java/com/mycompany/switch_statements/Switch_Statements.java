@@ -4,6 +4,8 @@
 
 package com.mycompany.switch_statements;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lab_services_student
@@ -11,6 +13,11 @@ package com.mycompany.switch_statements;
 public class Switch_Statements {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // create a application that demonstrates the diff between Nested if-else statement and switch Statement
+        // prompt user to enter a number and based on the number enter a day.
+        // add import
+        Scanner sb=new Scanner(System.in);
+        
+        
     }
 }
