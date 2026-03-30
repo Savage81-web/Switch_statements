@@ -18,6 +18,28 @@ public class Switch_Statements {
         // add import
         Scanner sb=new Scanner(System.in);
         
+        //Prompt the user to enter a value between1-7
+        System.out.println("Please enter a value between 1-7");
+        int userInput = sb.nextInt();
         
+        // implement Nested if else
+        if(userInput==1){
+            System.out.println("Monday");
+        }else if(userInput==2){
+            System.out.println("Tuesday");
+        }else if(userInput==3){
+            System.out.println("Wednesday");
+        }else if(userInput==4){
+            System.out.println("Thursday");
+            
+         }else if(userInput==5){  
+             System.out.println("Friday");
+         }else if (userInput==6){
+             System.out.println("Saturday");
+         }else if (userInput==7){
+             System.out.println("Sunday");    
+             
+            
+        }
     }
 }
