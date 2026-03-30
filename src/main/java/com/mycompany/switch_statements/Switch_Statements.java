@@ -41,5 +41,33 @@ public class Switch_Statements {
              
             
         }
+        // switch Statement(used AS aleternate instead of nested if else)
+        switch(userInput){
+            case 1:
+                System.out.println("Monday");
+                break;//stops switch after a matching case has been found
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break; 
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid entry");
+                break;
+                
+        }
     }
 }
